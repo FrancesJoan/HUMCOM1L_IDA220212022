@@ -1,0 +1,143 @@
+*{
+  box-sizing: box-border;
+}
+body{
+  background-color: rgb(14, 14, 14);
+}
+div{
+  margin: 10px;
+  border: 10px solid darkslategray;
+  padding-right: 50px;
+  padding-top: 5px;
+  height: 300px;
+  width: 1300px;
+}
+
+header{
+  background-image: url("C:/Users/Frances/Desktop/ExerImage/DPP.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin: 10px;
+  border: 5px solid darkslategray;
+}
+
+nav{
+  float: right;
+  overflow: hidden;
+  border-bottom: 1000px;
+  background-color: #333;
+}
+
+.internal{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+
+  text-align: center;
+  padding: 91px 130px;
+  border: 10px solid darkslategray;
+
+  text-decoration: none;
+}
+
+nav a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+section{
+  float: none;
+  width: 90px;
+  padding: 15px;
+  clear: both;
+  margin: 20px;
+}
+
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  background: darkslategray;
+  text-shadow: 0 0 10 px #FFFFFF;
+}
+
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: darkslategray;
+}
+
+.yourName{
+  color: rgb(75, 31, 116);
+}
+
+#section1{
+  background-image: url("C:/Users/Frances/Desktop/ExerImage/EAT.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  position: relative;
+  width: 1300px;
+  height: 400px;
+}
+
+.Pata-Tim{
+  font-size: 25px;
+  color: rgb(255, 254, 254);
+  text-shadow: #333;
+}
+
+.movieee{
+  font-size: 20px;
+  color: rgb(255, 254, 254);
+  text-shadow: #333;
+}
+
+#section2{
+  background-image: url("C:/Users/Frances/Desktop/ExerImage/KIRA.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  position: relative;
+  width: 1300px;
+  height: 400px;
+}
+
+#section3{
+  background-image: url("C:/Users/Frances/Desktop/ExerImage/AMS.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  position: relative;
+  width: 1300px;
+  height: 400px;
+}
+
+.singapore{
+  font-size: 45px;
+  color: rgb(141, 151, 160);
+  text-shadow: 2px 0px 0px black;
+}
+
+.singapore1{
+  color: rgb(141, 151, 160);
+  text-shadow: 2px 0px 0px black;
+  font-size: 30px;
+}
+
+@media screen and (max-width:200px) {
+  section{
+    width: 100px;
+  }
+}
+
+footer{
+  background-color: rgb(255, 254, 254);
+  border: 10px outset darkslategray;
+  padding-left: 10px;
+}
+
+article{
+  clear: both;
+  border: 10px solid darkslategray;
+}
+  
